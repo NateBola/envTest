@@ -18,6 +18,7 @@ int main(void)
 
   record = fopen(val, "a");
   printf("I can open files");
+  fprintf(record, "Entering Log,1\n");
   fclose(record);
   return 0;
 }
