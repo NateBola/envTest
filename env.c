@@ -15,6 +15,10 @@ int main(void)
   printf("%s\n", val);
   strcat(val, "/log.csv");
   printf("%s\n", val);
+
+  record = fopen(val, "a");
+  printf("I can open files");
+  fclose(record);
   return 0;
 }
 
