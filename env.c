@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main(void)
 {
@@ -11,6 +12,8 @@ int main(void)
     return 1;
   }
   
+  printf("%s\n", val);
+  strcat(val, "/log.csv");
   printf("%s\n", val);
   return 0;
 }
