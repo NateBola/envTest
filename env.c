@@ -4,7 +4,7 @@
 
 int main(void)
 {
-  char *val = getenv("SNAP_USER_DATA");
+  char *val = getenv("SNAP_COMMON");
   FILE *record;
 
   if (val == NULL) {
