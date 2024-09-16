@@ -4,6 +4,7 @@
 int main(void)
 {
   char *val = getenv("SNAP_USER_DATA");
+  FILE *record;
 
   if (val == NULL) {
     printf("Cannot find the envrioment variable\n");
