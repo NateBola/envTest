@@ -10,7 +10,7 @@ int main(void)
     return 1;
   }
   
-  printf("Value: %s\n, val");
+  printf("%s\n", val);
   return 0;
 }
 
